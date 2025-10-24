@@ -13,7 +13,7 @@ from datetime import datetime
 
 # ========== CONFIGURAÇÃO ==========
 # Adicione suas credenciais aqui ou use variáveis de ambiente
-BOT_TOKEN = os.getenv('BOT_TOKEN', '7956930899:AAFHLdd-K5rllhmw58w6C-plw4-cu00EcIE'))
+BOT_TOKEN = os.getenv('BOT_TOKEN', '7956930899:AAFHLdd-K5rllhmw58w6C-plw4-cu00EcIE')
 CHANNEL_ID = os.getenv('CHANNEL_ID', '@oreidoachado')  # Pode ser @username ou ID numérico
 
 # ========== TEMPLATES DE POSTS ==========
