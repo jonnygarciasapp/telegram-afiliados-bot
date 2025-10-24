@@ -1,0 +1,13 @@
+# Dependências do Bot de Afiliados Telegram
+
+# Telegram Bot API
+python-telegram-bot==20.7
+
+# Para requisições HTTP (opcional, caso precise fazer scraping)
+requests==2.31.0
+
+# Para agendamento de posts (opcional)
+apscheduler==3.10.4
+
+# Para manipulação de datas
+python-dateutil==2.8.2
