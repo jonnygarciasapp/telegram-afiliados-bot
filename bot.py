@@ -13,7 +13,7 @@ from datetime import datetime
 
 # ========== CONFIGURAÇÃO ==========
 # Adicione suas credenciais aqui ou use variáveis de ambiente
-BOT_TOKEN = os.getenv('BOT_TOKEN', 'SEU_TOKEN_AQUI')
+BOT_TOKEN = os.getenv('BOT_TOKEN', '7956930899:AAFHLdd-K5rllhmw58w6C-plw4-cu00EcIE')SEU_TOKEN_AQUI')
 CHANNEL_ID = os.getenv('CHANNEL_ID', '@oreidoachado')  # Pode ser @username ou ID numérico
 
 # ========== TEMPLATES DE POSTS ==========
@@ -127,7 +127,7 @@ if __name__ == "__main__":
     )
     
     # Para postar, descomente a linha abaixo:
-    # asyncio.run(postar_no_canal(texto, keyboard))
+    syncio.run(postar_no_canal(texto, keyboard))
     
     print("📝 Preview do post:\n")
     print(texto)
