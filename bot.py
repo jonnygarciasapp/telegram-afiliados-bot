@@ -156,7 +156,6 @@ async def postar_no_canal(texto, keyboard, foto_url=None):
                 caption=texto,
                 parse_mode=ParseMode.HTML,
                 reply_markup=keyboard,
-                disable_web_page_preview=False
             )
             print(f"📸 Post com foto publicado com sucesso! ID: {message.message_id}")
         else:
@@ -166,7 +165,6 @@ async def postar_no_canal(texto, keyboard, foto_url=None):
                 text=texto,
                 parse_mode=ParseMode.HTML,
                 reply_markup=keyboard,
-                disable_web_page_preview=False
             )
             print(f"✅ Post publicado com sucesso! ID: {message.message_id}")
         
