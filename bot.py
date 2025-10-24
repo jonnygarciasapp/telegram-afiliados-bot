@@ -127,7 +127,7 @@ if __name__ == "__main__":
     )
     
     # Para postar, descomente a linha abaixo:
-    syncio.run(postar_no_canal(texto, keyboard))
+    asyncio.run(postar_no_canal(texto, keyboard))
     
     print("📝 Preview do post:\n")
     print(texto)
